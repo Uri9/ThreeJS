@@ -28,6 +28,7 @@ const Scene = () => {
       new Three.MeshBasicMaterial({ color: 0x00ff00 }),
     )
     scene.add(cube)
+    
 
     //sphere
     const geometry = new Three.SphereGeometry( 0.5, 32, 16 );
@@ -60,6 +61,7 @@ const Scene = () => {
         style={{ width: '100%', height: '100vh' }}
         ref={mountRef}
       >
+        hola
       </div>
     )
   
